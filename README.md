@@ -1,2 +1,2 @@
 # CV_shiny
-Mon CV en shiny
+My interactive CV made with shiny
