@@ -1,0 +1,54 @@
+/* Get a fancy font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
+
+
+ /* logo */
+.skin-blue .main-header .logo {
+background-color: #3ACCCC;
+}
+
+/* logo when hovered */
+.skin-blue .main-header .logo:hover {
+background-color: #3ACCCC;
+}
+
+/* navbar (rest of the header) */
+.skin-blue .main-header .navbar {
+background-color: #3ACCCC;
+}
+
+/* main sidebar */
+.skin-blue .main-sidebar {
+background-color: #001F3E;
+}
+
+/* active selected tab in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+background-color: #F39C11;
+}
+
+/* other links in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a{
+background-color: #001F3E;
+color: #FFFFFF;
+}
+
+/* other links in the sidebarmenu when hovered */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+background-color: #3D9970;
+}
+/* toggle button when hovered  */
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+background-color: #3D9970;
+}
+
+/* body */
+.content-wrapper, .right-side {
+background-color: #FFFFFF;
+}
+
+
+/* Change header text to imported font */
+h1 {
+  font-family: 'Flamenco', sans-serif;
+}
